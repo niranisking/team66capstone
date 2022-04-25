@@ -82,7 +82,7 @@ body {
 }
 
 .orange {
-  background: #33adef;
+  background: hsl(176, 68%, 64%);
 }
 
 /* .nav {background-color: red;
@@ -172,6 +172,8 @@ body {
   margin: o auto;
 }
 
+
+
 .productive__info__title {
   text-align: left;
   font-size: 1.5rem;
@@ -193,6 +195,14 @@ body {
 .productive__info {
   text-align: center;
   margin-top: 5.3rem;
+}
+
+.iconarrow {width: 1.5rem;}
+
+.productive__info__link {
+  text-decoration: none;
+  font-size: 2rem;
+  color: hsl(176, 68%, 64%);
 }
 
 /* MEDIA SCREENS SETUP */
@@ -232,3 +242,9 @@ body {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+
+/* HOVER */
+a:hover {color :hsl(176, 68%, 64%)}
+.nav__logo:hover {color: hsl(176, 68%, 64%)}
+.productive__info__link .iconarrow :hover {color: darkblue;}
