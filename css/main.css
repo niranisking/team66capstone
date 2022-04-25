@@ -7,8 +7,10 @@
 body {background: hsl(217, 28%, 15%);
 }
 
-.header {background: hsl(217, 28%, 15%);
-margin: 2rem;}
+.nav__logo__img {width: 7rem;}
+
+header {background: hsl(217, 28%, 15%);
+margin: 0.5rem auto;}
 
 .header__center {
     max-width: 90vw;
@@ -94,12 +96,19 @@ border-radius: 1.95rem;}
 .nav__link {align-self: center;
 margin: 0.5rem;
 text-decoration: none;
-font-size: 1.5rem;
+font-size: 1.2rem;
 font-weight: 700px;
 color: white;
 letter-spacing: 0.1rem;
 padding: 1rem 0;}
 
+/* FEATURES */
+
+.features__list {
+    display: grid;
+    gap: 4rem 1rem;
+    padding: 4rem 1rem;
+}
 
 
 
@@ -127,6 +136,8 @@ padding: 1rem 0;}
 
 
 
+
+/* MEDIA SCREENS SETUP */
 
 @media screen and (min-width: 992px)  {
 
