@@ -9,17 +9,17 @@ body {
 }
 
 .nav__logo__img {
-  width: 7rem;
+  width: 4rem;
 }
 
-header {
+/* header {
   background: hsl(217, 28%, 15%);
   margin: 0.5rem auto;
-}
+} */
 
 .header__center {
   max-width: 90vw;
-  margin: 0.5rem auto;
+  margin: 0 auto;
   /* margin: 1rem auto; */
 }
 
