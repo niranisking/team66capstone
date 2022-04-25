@@ -9,7 +9,7 @@ body {
 }
 
 .nav__logo__img {
-  width: 4rem;
+ 
 }
 
 /* header {
@@ -93,29 +93,39 @@ body {
   /* background: yellow; */
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
+  max-width: 90vw;
 }
 
 .nav__header {
   display: flex;
+  
 }
 .nav__logo {
-  align-self: center;
+  display: flex;
+  
 }
+
+.nav__logo__img {  
+  align-self: center;
+  width: 5rem;
+  /* padding: 1rem 0.5rem; */}
 
 .nav__links {
   display: flex;
+  align-items: center;
 }
 
 .nav__link {
   align-self: center;
-  margin: 0.3rem;
+  
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 700px;
   color: white;
   letter-spacing: 0.1rem;
-  padding: 0.5rem 0.5rem;
+  padding: 1rem 0.5rem;
 }
 
 /* FEATURES */
