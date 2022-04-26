@@ -47,7 +47,7 @@ body {
   align-self: center;
 
   text-decoration: none;
-  /* font-size: 0.5rem; */
+ 
   font-weight: 700px;
   color: white;
   letter-spacing: 0.2rem;
@@ -63,7 +63,7 @@ body {
 .header__center {
   max-width: 90vw;
   margin: 0 auto;
-  /* margin: 1rem auto; */
+ 
 }
 
 .header__info__title {
@@ -87,17 +87,18 @@ body {
 }
 
 .header__info {
-  /* display: flex; */
-  /* justify-content: center; */
+
   align-items: center;
   margin: 3rem 0;
   text-align: center;
+  padding-bottom: 1rem;
+  
 }
 
 .header__info__title {
   font-family: "Raleway", sans-serif;
 
-  /* font-size: 16px; */
+ 
   font-weight: 700;
   text-transform: capitalize;
   letter-spacing: 0.2rem;
@@ -106,24 +107,21 @@ body {
 
 .header__info__text {
   line-height: 1.5;
-  /* font-size: 1rem; */
+  
   margin: 3rem 0;
   letter-spacing: 0.2rem;
   text-align: center;
 }
 
-.header__info a {
-  /* font-size: 1.5rem; */
-}
+
 
 .btn {
   display: inline-block;
   text-decoration: none;
   color: white;
-  /* background: rgba(red, rgb(122, 172, 62), blue, alpha); */
+
   border: 0.5px solid black;
   padding: 1.2rem 6rem;
-  /* margin: 1rem 1rem; */
   border-radius: 1.95rem;
 }
 
@@ -138,8 +136,8 @@ body {
 
 .features__list {
   display: grid;
-  gap: 4rem 1rem;
-  padding: 4rem 1rem;
+  gap: 2rem 1rem;
+  padding: 2rem 1rem;
   /* border: 2px solid red; */
   text-align: center;
   margin: o auto;
@@ -224,6 +222,11 @@ body {
   text-align: center;
 }
 
+.productive__img__photo {
+  height: 400px;
+  width:350px;
+}
+
 /* MEDIA SCREENS SETUP */
 @media screen and (min-width: 768px) {
   .header__info {
@@ -259,7 +262,9 @@ body {
     margin: 0 auto;
     grid-template-columns: 1fr 1fr;
   }
+
 }
+
 
 @media screen and (min-width: 1440px) {
   .header__info {
@@ -295,6 +300,7 @@ body {
     margin: 0 auto;
     grid-template-columns: 1fr 1fr;
   }
+  
 }
 
 /* HOVER */
@@ -321,6 +327,8 @@ body {
 }
 
 /* Wrapper */
+
+.bigquotes,.testimonial-wrapper { margin: 0;}
 
 .testimonial-wrapper {
   width: 90%;
