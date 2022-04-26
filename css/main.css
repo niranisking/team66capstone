@@ -17,8 +17,6 @@ body {
 }
 
 .nav__center {
- 
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,7 +34,6 @@ body {
 .nav__logo__img {
   align-self: center;
   width: 5rem;
-  
 }
 
 .nav__links {
@@ -54,10 +51,8 @@ body {
   font-weight: 700px;
   color: white;
   letter-spacing: 0.2rem;
-  padding:  0.75rem;
+  padding: 0.75rem;
 }
-
-
 
 /* HEADER */
 
@@ -136,8 +131,6 @@ body {
   background: hsl(176, 68%, 64%);
 }
 
-
-
 /* FEATURES */
 .features {
   background: hsl(218, 28%, 13%);
@@ -163,7 +156,7 @@ body {
 
 .features__list__one__header {
   font-family: "Raleway", sans-serif;
-  
+
   /* font-size: 1rem; */
   font-weight: 700;
   text-transform: capitalize;
@@ -226,11 +219,9 @@ body {
 .productive__info__link {
   display: flex;
   padding: 1rem 0rem;
-  
+
   color: hsl(176, 68%, 64%);
   text-align: center;
-
-  
 }
 
 /* MEDIA SCREENS SETUP */
@@ -329,10 +320,7 @@ body {
   font-family: "Open Sans";
 }
 
-
-
 /* Wrapper */
-
 
 .testimonial-wrapper {
   width: 90%;
