@@ -228,7 +228,7 @@ body {
 }
 
 /* MEDIA SCREENS SETUP */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .header__info {
     width: 50%;
     height: 100%;
@@ -536,7 +536,7 @@ a:hover {color :hsl(176, 68%, 64%)}
 }
 
 /* Responsiveness */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     /* Testimonial */
     .testimonial-wrapper {
         flex-direction: column;
