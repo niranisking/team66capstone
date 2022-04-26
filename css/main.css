@@ -60,7 +60,7 @@ body {
 
 .header__info__text {
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 0.75rem;
   margin: 3rem 0;
   letter-spacing: 0.1rem;
   text-align: center;
@@ -158,7 +158,7 @@ body {
 
 .features__list__one__paragraph {
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 0.75rem;
   letter-spacing: 0.1rem;
   color: white;
 }
@@ -179,14 +179,14 @@ body {
   font-size: 1.5rem;
   text-transform: capitalize;
   letter-spacing: 0.1rem;
-  line-height: 2rem;
+  line-height: 1.5rem;
   color: white;
   margin-bottom: 2rem;
 }
 
 .productive__info__text {
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 0.75rem;
   letter-spacing: 0.1rem;
   color: white;
   text-align: left;
