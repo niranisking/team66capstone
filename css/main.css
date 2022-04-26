@@ -228,6 +228,41 @@ body {
 }
 
 /* MEDIA SCREENS SETUP */
+@media screen and (max-width: 768px) {
+  .header__info {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .header__img__photo {
+    display: block;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .header__info {
+    text-align: center;
+  }
+
+  .nav__link {
+    margin: 1rem;
+  }
+
+  .features__list {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .productive__center {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
 @media screen and (min-width: 1440px) {
   .header__info {
