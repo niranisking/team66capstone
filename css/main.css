@@ -309,14 +309,14 @@ a:hover {color :hsl(176, 68%, 64%)}
 /*******************************
          Testimonial Section 
 *******************************/
- /* body {
+  body {
     margin: 0;
     padding: 0;
     background-color: hsl(218, 28%, 13%);
     color: hsl(0, 0%, 100%);
-    /* font-size: 14px; */
-    /* font-family: "Open Sans";
- } */ 
+    font-size: 14px; 
+     font-family: "Open Sans";
+ } 
 
  /* Wrapper */
  .testimonial-wrapper {
