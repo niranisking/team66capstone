@@ -52,7 +52,8 @@ body {
 }
 
 .header__info__title {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
   text-transform: capitalize;
   letter-spacing: 0.1rem;
   text-align: center;
@@ -60,7 +61,7 @@ body {
 
 .header__info__text {
   line-height: 1.5;
-  font-size: 0.75rem;
+  font-size: 1.3rem;
   margin: 3rem 0;
   letter-spacing: 0.1rem;
   text-align: center;
@@ -74,15 +75,16 @@ body {
   display: inline-block;
   text-decoration: none;
   color: white;
-  background: rgba(red, rgb(122, 172, 62), blue, alpha);
+  /* background: rgba(red, rgb(122, 172, 62), blue, alpha); */
   border: 0.5px solid black;
-  padding: 0.5rem 4.75rem;
+  padding: 1.2rem 8rem;
   /* margin: 1rem 1rem; */
   border-radius: 1.95rem;
 }
 
 .orange {
   background: hsl(176, 68%, 64%);
+  
 }
 
 /* .nav {background-color: red;
@@ -149,7 +151,8 @@ body {
 }
 
 .features__list__one__header {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
   text-transform: capitalize;
   letter-spacing: 0.1rem;
   color: white;
@@ -158,7 +161,7 @@ body {
 
 .features__list__one__paragraph {
   line-height: 1.5;
-  font-size: 0.75rem;
+  font-size: 1.3rem;
   letter-spacing: 0.1rem;
   color: white;
 }
@@ -176,7 +179,8 @@ body {
 
 .productive__info__title {
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
   text-transform: capitalize;
   letter-spacing: 0.1rem;
   line-height: 1.5rem;
@@ -186,7 +190,7 @@ body {
 
 .productive__info__text {
   line-height: 1.5;
-  font-size: 0.75rem;
+  font-size: 1.3rem;
   letter-spacing: 0.1rem;
   color: white;
   text-align: left;
@@ -200,9 +204,13 @@ body {
 .iconarrow {width: 1.5rem;}
 
 .productive__info__link {
+  display: flex;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.3rem;
   color: hsl(176, 68%, 64%);
+  text-align: center;
+  
+  /* margin: 1rem; */
 }
 
 /* MEDIA SCREENS SETUP */
