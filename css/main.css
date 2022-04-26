@@ -12,12 +12,17 @@ body {
  
 }
 
+/* HEADER */
+
 /* header {
   background: hsl(217, 28%, 15%);
   margin: 0.5rem auto;
 } */
 
+.header {background: hsl(217, 28%, 15%);}
+
 .header__center {
+
   max-width: 90vw;
   margin: 0 auto;
   /* margin: 1rem auto; */
@@ -131,6 +136,9 @@ body {
 }
 
 /* FEATURES */
+.features {
+  background: hsl(218, 28%, 13%);
+}
 
 .features__list {
   display: grid;
@@ -165,6 +173,10 @@ body {
   letter-spacing: 0.1rem;
   color: white;
 }
+
+/* PRODUCTIVE */
+
+.productive { background: hsl(218, 28%, 13%);}
 
 .productive__center {
   display: grid;
