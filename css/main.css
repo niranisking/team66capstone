@@ -325,9 +325,8 @@ body {
 
 /* Wrapper */
 
-.bigquotes,
-.testimonial-wrapper {
-  margin: 0;
+.position {
+  padding-left: 1rem;
 }
 
 .testimonial-wrapper {
