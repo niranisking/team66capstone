@@ -10,9 +10,12 @@
     font-family: "Open Sans";
  }
 
- .position {   margin-left: 4.5rem;
-    ;
-;}
+ .position { position: absolute;
+ 
+    top: 7px;
+    left: 0px;
+    
+    }
 
  /* Wrapper */
  .testimonial-wrapper {
