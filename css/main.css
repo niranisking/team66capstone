@@ -10,10 +10,15 @@ body {
   font-family: "Open Sans";
 }
 
+
+/* HEADER */
+.headerrr { background: hsl(217, 28%, 15%);}
+
 /* NAVBAR */
 
 .nav {
   background: hsl(217, 28%, 15%);
+  
 }
 
 .nav__center {
@@ -54,13 +59,20 @@ body {
   padding: 0.75rem;
 }
 
-/* HEADER */
+
+
+/* HEADER SECTION */
 
 .header {
+
+
+  
   background: hsl(217, 28%, 15%);
 }
 
 .header__center {
+   
+   
   max-width: 90vw;
   margin: 0 auto;
  
@@ -75,6 +87,7 @@ body {
 }
 
 .header__img__photo {
+   background: hsl(217, 28%, 15%);
   margin: 3rem 0;
   position: relative;
 }
@@ -138,7 +151,7 @@ body {
   display: grid;
   gap: 2rem 1rem;
   padding: 2rem 1rem;
-  /* border: 2px solid red; */
+  
   text-align: center;
   margin: o auto;
 }
@@ -155,7 +168,7 @@ body {
 .features__list__one__header {
   font-family: "Raleway", sans-serif;
 
-  /* font-size: 1rem; */
+  
   font-weight: 700;
   text-transform: capitalize;
   letter-spacing: 0.2rem;
@@ -165,7 +178,7 @@ body {
 
 .features__list__one__paragraph {
   line-height: 1.5;
-  /* font-size: 0.5rem; */
+  
   letter-spacing: 0.2rem;
   color: white;
 }
@@ -180,7 +193,7 @@ body {
   display: grid;
   gap: 4rem 1rem;
   padding: 4rem 1rem;
-  /* border: 2px solid red; */
+
   text-align: center;
   margin: o auto;
 }
@@ -188,7 +201,7 @@ body {
 .productive__info__title {
   font-family: "Raleway", sans-serif;
   text-align: left;
-  /* font-size: 1rem; */
+  
   font-weight: 700;
   text-transform: capitalize;
   letter-spacing: 0.2rem;
@@ -199,7 +212,7 @@ body {
 
 .productive__info__text {
   line-height: 1.5;
-  /* font-size: 0.5; */
+  
   letter-spacing: 0.2rem;
   color: white;
   text-align: left;
@@ -227,7 +240,7 @@ body {
   width:350px;
 }
 
-/* MEDIA SCREENS SETUP */
+/* MEDIA SCREEN */
 @media screen and (min-width: 768px) {
   .header__info {
     width: 50%;
@@ -349,7 +362,7 @@ body {
   box-shadow: 5px 5px 5px 3px hsla(197, 7%, 21%, 0.2);
   text-align: left;
   line-height: 1.8;
-  letter-spacing: 6.4px;
+  letter-spacing: 0.5px;
   transition: transform 1s;
 }
 
@@ -465,7 +478,7 @@ body {
   font-size: 12px;
   color: white;
   text-transform: capitalize;
-  letter-spacing: 6.4px;
+  letter-spacing: 0.8px;
   background-color: hsl(198, 60%, 50%);
   width: 180px;
   margin: 0 0 0 25px;
