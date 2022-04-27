@@ -27,6 +27,7 @@ body {
   align-items: center;
   margin: 0 auto;
   max-width: 90vw;
+  padding: 0.5rem;
 }
 
 .nav__header {
@@ -55,8 +56,8 @@ body {
  
   font-weight: 700px;
   color: white;
-  letter-spacing: 0.2rem;
-  padding: 0.75rem;
+  letter-spacing: 0.1rem;
+  padding: 0.5rem;
 }
 
 
@@ -191,8 +192,8 @@ body {
 
 .productive__center {
   display: grid;
-  gap: 4rem 1rem;
-  padding: 4rem 1rem;
+  gap: 2rem 1rem;
+  padding: 2rem 1rem;
 
   text-align: center;
   margin: o auto;
