@@ -12,7 +12,6 @@ body {
 
 .position {
   padding-left: 1.5rem;
-  
 }
 
 /* Wrapper */
@@ -149,7 +148,7 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 12px;
-  color: white;
+  color: hsl(0, 0%, 100%);
   text-transform: capitalize;
   letter-spacing: 0.8px;
   background-color: hsl(198, 60%, 50%);
