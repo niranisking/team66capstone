@@ -10,10 +10,8 @@
     font-family: "Open Sans";
  }
 
- .position { position: absolute;
- 
-    top: 7px;
-    left: 0px;
+ .position { height: 4rem;
+    
     
     }
 
