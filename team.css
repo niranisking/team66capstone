@@ -171,6 +171,10 @@ body {
 }
 
 /* Footer */
+.nav__logo__img {
+  align-self: center;
+  width: 5rem;
+}
 .footer-wrapper {
   background-color: hsl(216, 53%, 9%);
   display: flex;
